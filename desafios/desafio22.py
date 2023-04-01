@@ -1,0 +1,6 @@
+nome = input('Qual é o seu nome? ')
+print('Seu nome em maiúsculas fica ' + nome.upper())
+print('Seu nome em minúsculas fica ' + nome.lower())
+print('Seu nome tem ' , len(nome.strip()) , 'caracteres')
+lista = nome.split()
+print('Seu primeiro nome tem {} letras'.format(len(lista[0])))
